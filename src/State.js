@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const State = () => {
 	let age = 10
-	const nonechangstate = () => (name = 'Mr' + name)
+	const nonechangstate = () => (name = 'Mr.' + name)
 	let [name, setName] = useState('Ben')
   const changstate = () => {
 		if (!name.includes('Mr.')) {
