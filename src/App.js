@@ -4,6 +4,8 @@ import Props from './Props'
 import Event from './Event'
 import State from './State'
 import ParentStateLifting from './ParentStateLifting'
+import UseEffect from './UseEffect'
+import ClassComponent from './ClassComponent'
 const arrforprops = ['1', '2', '3']
 const people = [
 	{ name: 'Ben', age: 12 },
@@ -26,7 +28,9 @@ function App() {
 			</div>
 			<Event />
 			<State />
-			<ParentStateLifting />
+      <ParentStateLifting />
+      <UseEffect />
+      <ClassComponent anyprop = '要傳遞的props'/>
 		</div>
 	)
   
