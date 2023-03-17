@@ -7,32 +7,34 @@ const Nav = () => {
 				css套用練習
 				<ul style={{ display: 'flex', listStyleType: 'none' }}>
 					<li>
-						<Link to="/" style={{ color: 'yellow' }}>
+						<Link to="/ReactPractice" style={{ color: 'yellow' }}>
 							首頁
 						</Link>
 					</li>
 					<li>
-						<Link to="/Expression">Expression</Link>
+						<Link to="/ReactPractice/Expression">Expression</Link>
 					</li>
 					<li>
 						<Link
-							to="/Event"
+							to="/ReactPractice/Event"
 							style={{ color: 'orange', backgroundColor: 'gray' }}
 						>
 							Event(有錯誤示範)
 						</Link>
 					</li>
 					<li>
-						<Link to="/State">State</Link>
+						<Link to="/ReactPractice/State">State</Link>
 					</li>
 					<li>
-						<Link to="/ParentStateLifting">ParentStateLifting</Link>
+						<Link to="/ReactPractice/ParentStateLifting">
+							ParentStateLifting
+						</Link>
 					</li>
 					<li>
-						<Link to="/UseEffect">UseEffect</Link>
+						<Link to="/ReactPractice/UseEffect">UseEffect</Link>
 					</li>
 					<li>
-						<Link to="/ClassComponent">ClassComponent</Link>
+						<Link to="/ReactPractice/ClassComponent">ClassComponent</Link>
 					</li>
 				</ul>
 			</nav>

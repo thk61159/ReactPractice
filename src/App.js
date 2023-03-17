@@ -15,16 +15,16 @@ function App() {
 				<Route path="ReactPractice/" element={<Nav />}>
 					<Route index element={<Homeprops />}></Route>
 					<Route
-						path="ReactPractice/Expression"
+						path="Expression"
 						element={<Expression />}
 					></Route>
-					<Route path="ReactPractice/Event" element={<Event />}></Route>
-					<Route path="ReactPractice/State" element={<State />}></Route>
+					<Route path="Event" element={<Event />}></Route>
+					<Route path="State" element={<State />}></Route>
 					<Route
-						path="ReactPractice/ParentStateLifting"
+						path="ParentStateLifting"
 						element={<ParentStateLifting />}
 					></Route>
-					<Route path="ReactPractice/UseEffect" element={<UseEffect />}></Route>
+					<Route path="UseEffect" element={<UseEffect />}></Route>
 					<Route
 						path="ClassComponent"
 						element={<ClassComponent anyprop="要傳遞的props" />}
