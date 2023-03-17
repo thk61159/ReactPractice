@@ -12,7 +12,7 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<Nav />}>
+				<Route path="ReactPractice/" element={<Nav />}>
 					<Route index element={<Homeprops />}></Route>
 					<Route path="Expression" element={<Expression />}></Route>
 					<Route path="Event" element={<Event />}></Route>
